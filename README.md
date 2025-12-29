@@ -29,21 +29,6 @@ Algorithm Used:
 
 Logistic Regression (baseline model)
 
-🗂️ Project Structure
-income-prediction/
-│
-├── data/
-│   └── adult.csv
-│
-├── notebooks/
-│   └── income_prediction.ipynb
-│
-├── venv/                 # Virtual environment (not pushed to GitHub)
-│
-├── .gitignore
-├── requirements.txt
-└── README.md
-
 📊 Dataset Description
 
 The dataset contains the following types of features:
@@ -63,8 +48,6 @@ Hours per week
 Capital gain/loss
 
 Income (Target variable)
-
-📁 Dataset used: adult.csv
 
 ⚙️ Technologies Used
 
@@ -122,20 +105,6 @@ Split dataset into training and testing sets
 Train Logistic Regression model
 
 Evaluate using accuracy and classification report
-
-📈 Model Evaluation
-
-Metrics used:
-
-Accuracy
-
-Precision
-
-Recall
-
-F1-score
-
-The model successfully predicts income category with good accuracy.
 
 ✅ Result
 
